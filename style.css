@@ -622,7 +622,7 @@ body[data-halaman="login"] [data-nav="login"] {
     margin-top: 12px;
 }
 
-#grid-produk:has(.kartu:not([hidden]))~#katalog-kosong {
+#grid-produk:has(.kartu:not([hidden])) #katalog-kosong {
     display: none;
 }
 
